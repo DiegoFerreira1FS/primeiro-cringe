@@ -1,0 +1,70 @@
+/* Definição da paleta de cores */
+:root {
+    --cor-fundo-body: #F9F0E8; /* Creme Suave */
+    --cor-texto-body: #4F3824; /* Marrom Chocolate */
+    --cor-fundo-header: #DAA560; /* Coral Quente */
+    --cor-texto-header: white;
+    --cor-texto-lead: #88A096; /* Verde Sálvia */
+    --cor-fundo-footer: #DAA560; /* Ocre Suave */
+}
+
+/* Aplicação da paleta de cores */
+body {
+    background-color: var(--cor-fundo-body);
+    color: var(--cor-texto-body);
+}
+
+header, .navbar {
+    background-color: var(--cor-fundo-header);
+    color: var(--cor-texto-header);
+}
+
+.log_nav {
+    border-radius: 50%;
+}
+
+.lead {
+    color: var(--cor-texto-lead);
+}
+
+footer {
+    background-color: var(--cor-fundo-footer);
+    color: var(--cor-texto-body);
+}
+
+.height-receita {
+    height: 750px;
+}
+
+.height-cadastro {
+    height: 750px;
+}
+
+/* Customização da tela de cadastro */
+.form-container {
+    width: 80%;
+    max-width: 1000px; /* Define a largura máxima do formulário */
+    padding: 20px;
+    background-image: url('img/logo.png'); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(1, 4, 0, 0.1);
+}
+
+.form-container h2 {
+    color: #DAA560;
+    margin-bottom: 20px;
+}
+
+.form-container .form-label {
+    color: var(--cor-texto-body);
+}
+
+.form-container .btn-primary {
+    background-color: var(--cor-fundo-header);
+    border-color: var(--cor-fundo-header);
+}
+
+.form-container .btn-primary:hover {
+    background-color: darken(var(--cor-fundo-header), 10%);
+    border-color: darken(var(--cor-fundo-header), 10%);
+}

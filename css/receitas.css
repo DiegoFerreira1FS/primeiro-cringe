@@ -1,0 +1,25 @@
+/* Estilos CSS principais */
+body {
+    background-color: #F9F0E8; /* Creme Suave */
+    color: #4F3824; /* Marrom Chocolate */
+}
+
+header, footer {
+    background-color: #FF6B6B; /* Coral Quente */
+    color: white;
+}
+
+a, .btn-primary {
+    background-color: #88A096; /* Verde Sálvia */
+    color: white;
+}
+
+h1, h2, h3, h4 {
+    color: #dad4d0; /* Marrom Chocolate */
+}
+
+/* Estilo para elementos destacados ou mensagens */
+.highlight, .alert {
+    background-color: #DAA560; /* Ocre Suave */
+    color: #4F3824;
+}
